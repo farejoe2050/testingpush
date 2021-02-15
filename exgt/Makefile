@@ -3,7 +3,7 @@
 ifndef PETALINUX
 $(error "Error: PETALINUX environment variable not set.  Change to the root of your PetaLinux install, and source the settings.sh file")
 endif
-
+#this is added to test changes after first time of code push
 include apps.common.mk
 
 all: build install
