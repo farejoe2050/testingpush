@@ -1,4 +1,4 @@
-
+#this is done after comming back from feature3
 #this is done for testing chnages made in branch
 ifndef PETALINUX
 $(error "Error: PETALINUX environment variable not set.  Change to the root of your PetaLinux install, and source the settings.sh file")
@@ -8,7 +8,7 @@ include apps.common.mk
 
 all: build install
 
-build:
+build: feature3 testing line
 
 clean:
 
