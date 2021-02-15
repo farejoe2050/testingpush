@@ -1,5 +1,6 @@
 PetaLinux User Application Template
 ===================================
+this is done after comming back from feature3 in different file
 
 This directory contains a PetaLinux user application created from a template.
 
@@ -20,7 +21,7 @@ To install your prebuilt application or script to the target file system
 copy on the host, simply run the 
     "petalinux-build -c rootfs/force_usb_power"
 command.
-
+ ************tesietng master********
 You will also need to rebuild PetaLinux bootable images so that the images
 is updated with the updated target filesystem copy, run this command:
     "petalinux-build -x package"
